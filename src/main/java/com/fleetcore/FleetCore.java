@@ -9,7 +9,7 @@ public class FleetCore {
     public static void main(String[] args) {
         Customer customer = new Customer("Test Co", "12 Main Rd, Pretoria",
                 "Sipho", "0821234567", "sipho@example.com");
-        Vehicle truck = new Vehicle("CA123456", "Isuzu", "FTR", 8000, LicenceCategory.C1, VehicleStatus.AVAILABLE);
+        Vehicle truck = new Vehicle("CA123456", "Isuzu", "FTR", 9000, LicenceCategory.C1, VehicleStatus.AVAILABLE);
         Driver driver = new Driver("LIC001", LicenceCategory.EC,
                 "Thabo", "0831234567", "thabo@example.com");
         Cargo cargo = new Cargo("Steel pipes", 5000);
